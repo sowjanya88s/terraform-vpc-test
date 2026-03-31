@@ -1,3 +1,3 @@
 output "azs" {
-    value = data.module.azs
+    value = module.vpc.azs
 }
