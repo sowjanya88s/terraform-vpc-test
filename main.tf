@@ -2,5 +2,5 @@ module "vpc" {
     source = "git::https://github.com/sowjanya88s/terraform-vpc-module.git?ref=main"
     project = "roboshop"
     environment = "dev"
-    # is_peering_required = false
+    is_peering_required = false
     }
